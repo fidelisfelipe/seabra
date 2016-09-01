@@ -40,5 +40,10 @@
         "single"
       ]
     }
+  },
+  "scripts": {
+    "install" : "gulp build",
+    "start": "gulp serve"
   }
+  
 }
