@@ -47,6 +47,6 @@
   "scripts": {
     "start": "gulp serve",
     "postinstall": "npm install && gulp build"
-  },
+  }
   
 }
