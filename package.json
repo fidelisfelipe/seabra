@@ -4,7 +4,8 @@
     "node": ">=4"
   },
   "dependencies": {
-	"gulp": "^3.9.0"
+    "bower": "^1.7.9",
+    "gulp": "^3.9.0"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",
@@ -46,7 +47,6 @@
   },
   "scripts": {
     "start": "gulp serve",
-    "postinstall": "bower install"
+    "postinstall": "bower install && gulp build"
   }
-  
 }
