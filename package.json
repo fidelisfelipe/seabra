@@ -42,7 +42,7 @@
     }
   },
   "scripts": {
-    "install" : "gulp build",
+    "install" : "npm install && gulp build",
     "start": "gulp serve"
   }
   
